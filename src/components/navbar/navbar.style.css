@@ -1,0 +1,60 @@
+.nav {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.nav h1 {
+  font-size: 2.8rem;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin: 1rem auto;
+}
+
+.nav img {
+  width: 12%;
+}
+
+.list {
+  display: flex;
+  margin-right: 13rem;
+  margin-top: 2rem;
+  padding: 0.3rem 0.9rem;
+  width: 69%;
+}
+
+.list li {
+  margin-left: 35rem;
+  font-size: 1.9rem;
+}
+
+.search-item {
+  background: whitesmoke;
+  border-bottom: 1px solid black;
+  width: 16%;
+}
+
+.tech-item {
+  background: whitesmoke;
+  width: 16%;
+  border-bottom: 2px solid orange;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav img {
+    width: 80%;
+  }
+  .list {
+    display: grid;
+    justify-content: center;
+    margin-right: 0rem;
+    text-align: center;
+  }
+  .list li {
+    width: 100%;
+    padding: 0 0.3rem;
+    margin-left: 0rem;
+  }
+}
